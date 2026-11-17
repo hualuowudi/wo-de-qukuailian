@@ -1,0 +1,3291 @@
+{
+  "schema": "zhuxiu-traceability-v2",
+  "brand": {
+    "name": "珠绣包包",
+    "price": 128,
+    "brand": "拾珠绣",
+    "brandEn": "PEARL VISION",
+    "slogan": "以珠为缀，绣活非遗",
+    "ip": "拾鸢",
+    "origin": "中国·泉州",
+    "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。"
+  },
+  "products": [
+    {
+      "code": "ZXS-20261116-0001",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-08 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-10 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-02 11:40",
+          "place": "泉州·古城文创店",
+          "operator": "散客",
+          "detail": "购买人 散客，联系电话 13524875912"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "5bf68a51cbec9ad3d8aa23e6a76432be01d0557f4a39075da640f7494f1b8cc9"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "5bf68a51cbec9ad3d8aa23e6a76432be01d0557f4a39075da640f7494f1b8cc9",
+          "hash": "0ead99a54aa73e5c91901e02a27fd38d0059e060cb8e7ed6e4789b87389838a8"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "0ead99a54aa73e5c91901e02a27fd38d0059e060cb8e7ed6e4789b87389838a8",
+          "hash": "d780b51dc8b98e5bc8a28a2e79325f2f85c2ad828a71b862b7dee364553432ae"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "d780b51dc8b98e5bc8a28a2e79325f2f85c2ad828a71b862b7dee364553432ae",
+          "hash": "3045b752f025e0b518a2c778cd2a2d60f6f1bd8a001fe878c81694ae68fe1ee8"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0002",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-09 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-11 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-05 13:40",
+          "place": "泉州·古城文创店",
+          "operator": "阿玲爱吃芒果",
+          "detail": "购买人 阿玲爱吃芒果，联系电话 13674129583"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "744f75d106a237e00f0793f01902651a88cc8812e651c82664f285b31653669e"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "744f75d106a237e00f0793f01902651a88cc8812e651c82664f285b31653669e",
+          "hash": "db1dd54b740976bad3aebb94ebc50c14477cb7dab007e9b40259b4ced39440c3"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "db1dd54b740976bad3aebb94ebc50c14477cb7dab007e9b40259b4ced39440c3",
+          "hash": "d54b9ee1dd01bcba7e94ffb0fab2031cb3502d03b2ca5bbc435a3f420926e499"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "d54b9ee1dd01bcba7e94ffb0fab2031cb3502d03b2ca5bbc435a3f420926e499",
+          "hash": "c94aef1a9ed2432a9d90eee184c3dd25a3634d373acf4eaa7e10570a6b631a4b"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0003",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-10 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-12 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-05 12:20",
+          "place": "泉州·古城文创店",
+          "operator": "古艺寻踪客",
+          "detail": "购买人 古艺寻踪客，联系电话 13745912683"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "4290faab58b060dfe1432b54b90effc22888639df8c0d951706f00c854e21bd6"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "4290faab58b060dfe1432b54b90effc22888639df8c0d951706f00c854e21bd6",
+          "hash": "00c9cb3f93e3ee36e9b11c8ad56b0f4c95c85048ffd69677d31a18d0284b8fdb"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "00c9cb3f93e3ee36e9b11c8ad56b0f4c95c85048ffd69677d31a18d0284b8fdb",
+          "hash": "00a59bc63e5064e3eeef925502f712369ecfe98e8969c9ed933f00e6e22ab95a"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "00a59bc63e5064e3eeef925502f712369ecfe98e8969c9ed933f00e6e22ab95a",
+          "hash": "cf51a676e690a7d46e244f5bd2b4f03bd856b2b8b908bed78b581c1ef5494399"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0004",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-11 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-13 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-06 13:40",
+          "place": "泉州·古城文创店",
+          "operator": "风物漫游札记",
+          "detail": "购买人 风物漫游札记，联系电话 13859274163"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "43fce15d3babd6784d1e2af56fd78f77a5e70437ab5af9de119680dc4e2c4bdb"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "43fce15d3babd6784d1e2af56fd78f77a5e70437ab5af9de119680dc4e2c4bdb",
+          "hash": "ddae13d6a235281013305f3a1bada131c090153287055d837297f32aa1585e0a"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "ddae13d6a235281013305f3a1bada131c090153287055d837297f32aa1585e0a",
+          "hash": "7230bb3fe8ab730530d9dc46fe4daedcb5d6d42e86cb3b48379efdb9707363c4"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "7230bb3fe8ab730530d9dc46fe4daedcb5d6d42e86cb3b48379efdb9707363c4",
+          "hash": "15f4d3cbe9f1f3ef7bafe88063d67b8e676976ebbb0dae29226696cb326144a8"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0005",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-12 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-14 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-16 09:00",
+          "place": "泉州·古城文创店",
+          "operator": "纹彩赴山河",
+          "detail": "购买人 纹彩赴山河，联系电话 13927485169"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "54bc2451587cc197aacf6cd59b6f81bbabf32cf8c375dd5c5210a1ee023d9c68"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "54bc2451587cc197aacf6cd59b6f81bbabf32cf8c375dd5c5210a1ee023d9c68",
+          "hash": "f194077f26ee8748d17c82926586cc25966c327f8109f7d4ad153a99203f9625"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "f194077f26ee8748d17c82926586cc25966c327f8109f7d4ad153a99203f9625",
+          "hash": "a533e83936bcd19769678aeea158f66314846e1942088a9af855b98c94da4d45"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "a533e83936bcd19769678aeea158f66314846e1942088a9af855b98c94da4d45",
+          "hash": "bcbce40abc395636270681f7ecb11ee42ada666722ac5edceb916e97bc3a4bb9"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0006",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-13 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-15 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-08 09:40",
+          "place": "泉州·古城文创店",
+          "operator": "手作藏雅集",
+          "detail": "购买人 手作藏雅集，联系电话 15036925874"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "10fa1ca8ad86a59621900e1314341af4868a989171e1a0d71f1585cf0277e822"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "10fa1ca8ad86a59621900e1314341af4868a989171e1a0d71f1585cf0277e822",
+          "hash": "b26a7200c79c627b562a1266c022b2f3b7622442cce8b41190021bc0446985f5"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "b26a7200c79c627b562a1266c022b2f3b7622442cce8b41190021bc0446985f5",
+          "hash": "5e5b198a1358fc9ce11a380db0be26ffff2ed3b8c4fa004880e4b522124d2186"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "5e5b198a1358fc9ce11a380db0be26ffff2ed3b8c4fa004880e4b522124d2186",
+          "hash": "f74e6dc3562a0245c7ac867bbe322a9985c366130a1c1fe087914f1a90a17ab5"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0007",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-14 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-16 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-11 05:50",
+          "place": "泉州·古城文创店",
+          "operator": "古城观艺行",
+          "detail": "购买人 古城观艺行，联系电话 15147259368"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "86b91c59fec1186d463159873a4632074626180f901665cb69ca97a31b656148"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "86b91c59fec1186d463159873a4632074626180f901665cb69ca97a31b656148",
+          "hash": "0af6bd1f9765a92c144d00c89cb71c369b30e242a958f534282c385042fa78eb"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "0af6bd1f9765a92c144d00c89cb71c369b30e242a958f534282c385042fa78eb",
+          "hash": "3a4380cbd96a5be3dbe0e44b70f5024a706592f81e4e02aab388a1f901b566f4"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "3a4380cbd96a5be3dbe0e44b70f5024a706592f81e4e02aab388a1f901b566f4",
+          "hash": "1147c3adba1b158cef6850b7e3ef7a3180922be85182ee717192c71e10cf5f7f"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0008",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-15 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-17 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-11 06:30",
+          "place": "泉州·古城文创店",
+          "operator": "彩缕揽清欢",
+          "detail": "购买人 彩缕揽清欢，联系电话 15293647185"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "728848ec75e44b176a1a8dbccf3bc0637e95ac456c0e748562558a7cdfa3ca86"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "728848ec75e44b176a1a8dbccf3bc0637e95ac456c0e748562558a7cdfa3ca86",
+          "hash": "8992470d804c6ef67e901a90521e7f77ba1c4a0b704296e2b7a3e9385004a483"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "8992470d804c6ef67e901a90521e7f77ba1c4a0b704296e2b7a3e9385004a483",
+          "hash": "c0bb66f7410d749a9b017e0f56d2d35487fd69a6584010c87a1b38da1c74780e"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "c0bb66f7410d749a9b017e0f56d2d35487fd69a6584010c87a1b38da1c74780e",
+          "hash": "b0de24fcbbea53e039bc859f5592c10abf7e3e694377c681192b85b6655ffe56"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0009",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-16 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-18 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-10 11:00",
+          "place": "泉州·古城文创店",
+          "operator": "艺旅拾风物",
+          "detail": "购买人 艺旅拾风物，联系电话 15372846915"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "bfd83035e9e2d6e743253c7b867448a377046d6798cead954e6ae15b35c52a79"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "bfd83035e9e2d6e743253c7b867448a377046d6798cead954e6ae15b35c52a79",
+          "hash": "c4ea12d8d7cf9452b1086b3e184f058b3a80430039a7fc07917b9a88b880dacd"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "c4ea12d8d7cf9452b1086b3e184f058b3a80430039a7fc07917b9a88b880dacd",
+          "hash": "d6ea6b07d5c02c577f9e312d4958ea282d0afc7930207ab6b8e4fc3f540a83b0"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "d6ea6b07d5c02c577f9e312d4958ea282d0afc7930207ab6b8e4fc3f540a83b0",
+          "hash": "374818768f2103847afcd370fca4fa4f8b4945c5236843cbf6b234808da8eee3"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0010",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-17 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-19 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-11 02:30",
+          "place": "泉州·古城文创店",
+          "operator": "古纹慢游人",
+          "detail": "购买人 古纹慢游人，联系电话 15528473961"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "d0ed0e257d40df6279f7e1c0a6bde8cb2c7587180c06f0eea13c1378e50b9940"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "d0ed0e257d40df6279f7e1c0a6bde8cb2c7587180c06f0eea13c1378e50b9940",
+          "hash": "d897cca24d28165c27e58357ad2a8c1abacee73452d0861426cc9621137e4a58"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "d897cca24d28165c27e58357ad2a8c1abacee73452d0861426cc9621137e4a58",
+          "hash": "61cea451b0fa43f9bf314d58cbd2b26dd5b49916696c94523a906186a8537500"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "61cea451b0fa43f9bf314d58cbd2b26dd5b49916696c94523a906186a8537500",
+          "hash": "3bcb6b1f8e5f03c3612e766224e5dc8dd660539f767f38a9e475b6211c3911bb"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0011",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-18 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-20 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-10 15:40",
+          "place": "泉州·古城文创店",
+          "operator": "雅物寻访记",
+          "detail": "购买人 雅物寻访记，联系电话 15639172485"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "67f6d3e6abdec019e2c5621f664d45326d378467c0c57fd7be73a0eb22e7ede6"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "67f6d3e6abdec019e2c5621f664d45326d378467c0c57fd7be73a0eb22e7ede6",
+          "hash": "4129e1ac99ccaf7c7bcf9f4297b324b0630a120c8713f9c134588059a8a5f746"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "4129e1ac99ccaf7c7bcf9f4297b324b0630a120c8713f9c134588059a8a5f746",
+          "hash": "756e5a02ad1a91fd72d2d2adadd8183e4eedbafe0e7bba4485730bf7f8e8636c"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "756e5a02ad1a91fd72d2d2adadd8183e4eedbafe0e7bba4485730bf7f8e8636c",
+          "hash": "8b98c9ccc4001bd8b00009b6924cdcd26c216c5e24b8c2f17d4690e61cb6b0de"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0012",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-19 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-21 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-11 04:30",
+          "place": "泉州·古城文创店",
+          "operator": "艺韵山海客",
+          "detail": "购买人 艺韵山海客，联系电话 15748269315"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "b12676f2336ba5236cc58b874f369e7f5644ef70ac46fc6c071410bc78cd5765"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "b12676f2336ba5236cc58b874f369e7f5644ef70ac46fc6c071410bc78cd5765",
+          "hash": "25ca98b53fdfda58f601ed60f9f4cdf2225a7d6d7f6b7abe2f3ccf896988c259"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "25ca98b53fdfda58f601ed60f9f4cdf2225a7d6d7f6b7abe2f3ccf896988c259",
+          "hash": "008a7ba7589cadd86822b24846dd835b661c7d45b2d37c8525c951afa99da3ef"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "008a7ba7589cadd86822b24846dd835b661c7d45b2d37c8525c951afa99da3ef",
+          "hash": "b9c16dc04332bed6da4cc654d5862bcf7238404cf85918cd348ac9d8a603b0ec"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0013",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-20 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-22 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-10 11:40",
+          "place": "泉州·古城文创店",
+          "operator": "轻旅藏古艺",
+          "detail": "购买人 轻旅藏古艺，联系电话 15829471635"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "6e677b1938fa56ac6e706960d5c17ab83321fb8954f7a547a50862935ba6fb72"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "6e677b1938fa56ac6e706960d5c17ab83321fb8954f7a547a50862935ba6fb72",
+          "hash": "1709279bf4295b34cf468093ef2ff7626d71e60b27ffa79e7c214b8cb0d66b22"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "1709279bf4295b34cf468093ef2ff7626d71e60b27ffa79e7c214b8cb0d66b22",
+          "hash": "e9a4dca365ddc49aea5a6c1b622a341ee36d70ae97dfbe05c8e2971fc15d82f3"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "e9a4dca365ddc49aea5a6c1b622a341ee36d70ae97dfbe05c8e2971fc15d82f3",
+          "hash": "4e98b3f6037107704caff7ef8e0e00a0b5d101b4bf52ce6666e90f50a43dfc6b"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0014",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-21 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-23 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-17 09:00",
+          "place": "泉州·古城文创店",
+          "operator": "缕色叙流年",
+          "detail": "购买人 缕色叙流年，联系电话 15937182465"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "3e0ea0923734e78c7880adc75fb4bc94818b85596beb219159d73436cf7296b6"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "3e0ea0923734e78c7880adc75fb4bc94818b85596beb219159d73436cf7296b6",
+          "hash": "1ca976596cbf72b67eda28fa36244b5b0ece9581e9515920a32f348e1f777877"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "1ca976596cbf72b67eda28fa36244b5b0ece9581e9515920a32f348e1f777877",
+          "hash": "4dfff6c80387bb646706e09bb011b0ae3a84d18d6c07d04f2a52e38953c5e3ae"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "4dfff6c80387bb646706e09bb011b0ae3a84d18d6c07d04f2a52e38953c5e3ae",
+          "hash": "e528f2680b02989c9c46feff1834365b1af0a6be48fc95a0402a39bca01e44bf"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0015",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-22 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-24 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-06 15:40",
+          "place": "泉州·古城文创店",
+          "operator": "文创观物者",
+          "detail": "购买人 文创观物者，联系电话 17328469157"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "a505c019866985d35fc71c13e31889846564b0295fb15db12363e4c89ab8e07b"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "a505c019866985d35fc71c13e31889846564b0295fb15db12363e4c89ab8e07b",
+          "hash": "b0d8b2691dfcf9b2aafb6fa41920366a82834529795e62d3cc6f76c5abfbfd31"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "b0d8b2691dfcf9b2aafb6fa41920366a82834529795e62d3cc6f76c5abfbfd31",
+          "hash": "f63191fbfecf05d1def0fb29ce72340362f930a4b1d1b58a9aebabe810c62994"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "f63191fbfecf05d1def0fb29ce72340362f930a4b1d1b58a9aebabe810c62994",
+          "hash": "7aa0eb552e95621dbfffab94a534688c704404a08d18fa645c27be1fd21797e1"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0016",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-23 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-25 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-07 10:20",
+          "place": "泉州·古城文创店",
+          "operator": "旧艺漫游集",
+          "detail": "购买人 旧艺漫游集，联系电话 17539284617"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "0b06d42fd4a241796192eac2d193271cfebab9052bfde54d8614b04d02eb0380"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "0b06d42fd4a241796192eac2d193271cfebab9052bfde54d8614b04d02eb0380",
+          "hash": "fedf5be2a4b2cfb5ed7772fe139e4961385b7443ae4e505a19da1e71507888aa"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "fedf5be2a4b2cfb5ed7772fe139e4961385b7443ae4e505a19da1e71507888aa",
+          "hash": "8f8b7ff2e4a0fcc63cbce541271540879b02d4f19f92e0d632c4f7417270d76d"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "8f8b7ff2e4a0fcc63cbce541271540879b02d4f19f92e0d632c4f7417270d76d",
+          "hash": "f3bebbebdb0cf9282a8f9c7ad54b08daa3d8a4882fcc0abfea27991bcab625e6"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0017",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-24 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-26 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-07 15:00",
+          "place": "泉州·古城文创店",
+          "operator": "风物赴远途",
+          "detail": "购买人 风物赴远途，联系电话 17624938517"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "53a1a136deba770d635e5d89128d2c99873df04d405ec7b881f49875dd623083"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "53a1a136deba770d635e5d89128d2c99873df04d405ec7b881f49875dd623083",
+          "hash": "50974f0cd14dbafd81d6be6943ff2fea9f7932fb1b6ae795806c4a72cdd42be6"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "50974f0cd14dbafd81d6be6943ff2fea9f7932fb1b6ae795806c4a72cdd42be6",
+          "hash": "c22949624fef7c884f8368a1f32bb1d4566a618c374c7137d9f394e521b65e0e"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "c22949624fef7c884f8368a1f32bb1d4566a618c374c7137d9f394e521b65e0e",
+          "hash": "fb647910648b2eedcae390b40ea5b7246cbc6065e682969a5e5b82dc59a067fb"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0018",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-25 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-27 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-09 12:20",
+          "place": "泉州·古城文创店",
+          "operator": "艺巷寻雅物",
+          "detail": "购买人 艺巷寻雅物，联系电话 17748192635"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "b3801b5e23f0f3468fb0d805a442e251d0ec37eb13ba7786331a49b5a5baeb20"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "b3801b5e23f0f3468fb0d805a442e251d0ec37eb13ba7786331a49b5a5baeb20",
+          "hash": "3765b9ce85e71ea4b47c025bc137484c850fce82eaa0d4f6405c6544d4339d5c"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "3765b9ce85e71ea4b47c025bc137484c850fce82eaa0d4f6405c6544d4339d5c",
+          "hash": "0b17f86650237b654cfa0b8fe012ee9aa77e8e497aa23bbaa1baa0e94845cf3b"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "0b17f86650237b654cfa0b8fe012ee9aa77e8e497aa23bbaa1baa0e94845cf3b",
+          "hash": "0f3c5976ed4d63b79528e121c9bd4c1d242bec5e389aefe5adc3fddc4448c22d"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0019",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-26 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-08 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-09 10:20",
+          "place": "泉州·古城文创店",
+          "operator": "古艺留痕",
+          "detail": "购买人 古艺留痕，联系电话 17829531467"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "507f01344b5421a4d772876698592bc1c46dc73d962f268e727d6a71aec1a63f"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "507f01344b5421a4d772876698592bc1c46dc73d962f268e727d6a71aec1a63f",
+          "hash": "e9114a453480b0c83d8a7eddf6e04ca981019fc4cacceb53f08aba5dbcc56f94"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "e9114a453480b0c83d8a7eddf6e04ca981019fc4cacceb53f08aba5dbcc56f94",
+          "hash": "57fe18fdef844b3fbf03cb6682de70376e282a87e9354b09fbdbd13f32da52ed"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "57fe18fdef844b3fbf03cb6682de70376e282a87e9354b09fbdbd13f32da52ed",
+          "hash": "4660fc59ebaab83ad30e73e7fecffd07ba69a66ec8bf9d8a19a702e6911acb46"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0020",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-27 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-09 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-10 09:40",
+          "place": "泉州·古城文创店",
+          "operator": "行旅观纹记",
+          "detail": "购买人 行旅观纹记，联系电话 17936284157"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "388de2005cf018c2b13d29974fb2ccef76de73cccc8c4757c2162e1ee514017a"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "388de2005cf018c2b13d29974fb2ccef76de73cccc8c4757c2162e1ee514017a",
+          "hash": "9d2978e142139634720fd998a7696b81e79982a564093f6224e10a52e29ba1a1"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "9d2978e142139634720fd998a7696b81e79982a564093f6224e10a52e29ba1a1",
+          "hash": "933203050d5b1aee65ea7f07067f8f36c4ccac1870f454480cf2c2ed8c10c28a"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "933203050d5b1aee65ea7f07067f8f36c4ccac1870f454480cf2c2ed8c10c28a",
+          "hash": "caf1716af4804dd9a2a356a271cd83461e336363a3c1c2d75a99b86993b0148d"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0021",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-08 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-10 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-03 10:20",
+          "place": "泉州·古城文创店",
+          "operator": "雅艺小藏家",
+          "detail": "购买人 雅艺小藏家，联系电话 18024759361"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "2ab1c78969b6e85c101972a8ddf35a5d57a2ecb0d345d8cde3bd46be7e6869cb"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "2ab1c78969b6e85c101972a8ddf35a5d57a2ecb0d345d8cde3bd46be7e6869cb",
+          "hash": "705c8bbe7f5bc966de05fb895b08c0bb509d604f1745204c2f3022c405a4b1fc"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "705c8bbe7f5bc966de05fb895b08c0bb509d604f1745204c2f3022c405a4b1fc",
+          "hash": "5915f47e8dbc6a1fdb446f3838e44dabe43b02c6091ac363079160a682414185"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "5915f47e8dbc6a1fdb446f3838e44dabe43b02c6091ac363079160a682414185",
+          "hash": "899ed8571af0ef7739af0f3689aba722a8b010aae3586f5f520bfa126ae7d733"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0022",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-09 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-11 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-10 14:20",
+          "place": "泉州·古城文创店",
+          "operator": "素缕寻古趣",
+          "detail": "购买人 素缕寻古趣，联系电话 18139527461"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "bd9a8a5a6432c823c98b19e0ba83eda173da19c644804a3c0ad6701d32255b8d"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "bd9a8a5a6432c823c98b19e0ba83eda173da19c644804a3c0ad6701d32255b8d",
+          "hash": "a0ec5d31bacf6aeda38e86a7e9ef7a4c3a0da496062ff50dd01f36fb5a8a890e"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "a0ec5d31bacf6aeda38e86a7e9ef7a4c3a0da496062ff50dd01f36fb5a8a890e",
+          "hash": "0c85e220d5c04d7c4e71653229a6cd2a035be5e32ae8ca6a8261307fd2cd5e6d"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "0c85e220d5c04d7c4e71653229a6cd2a035be5e32ae8ca6a8261307fd2cd5e6d",
+          "hash": "771cecec903bcedbad5f9d191c7e72ad69dc92d352ba5489a01790253de3f2a0"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0023",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-10 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-12 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-06 09:00",
+          "place": "泉州·古城文创店",
+          "operator": "山河访艺客",
+          "detail": "购买人 山河访艺客，联系电话 18246937512"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "b3c0651cbba95964d1ac85e9862bacc59787e2aaabf198d17df40d8e25bd8b9f"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "b3c0651cbba95964d1ac85e9862bacc59787e2aaabf198d17df40d8e25bd8b9f",
+          "hash": "6cd18da7c89ae696d0962e3101e38ff2ef4596c4a73f2754b52594f0c973068f"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "6cd18da7c89ae696d0962e3101e38ff2ef4596c4a73f2754b52594f0c973068f",
+          "hash": "d160dbdd2d42b10b28e660b255c320e1e2e8b3d87495e27a6e072c221d20e84d"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "d160dbdd2d42b10b28e660b255c320e1e2e8b3d87495e27a6e072c221d20e84d",
+          "hash": "d6f0c27ce828b16e82d57ba3e8fd97a284a6606ed3d539b20f6460e73455b5f2"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0024",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-11 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-13 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-02 14:20",
+          "place": "泉州·古城文创店",
+          "operator": "手作风物簿",
+          "detail": "购买人 手作风物簿，联系电话 18327594613"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "210e283903343769ac795e75f44de6e9b95afb285c89185cd1a88a9e3f8b31b5"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "210e283903343769ac795e75f44de6e9b95afb285c89185cd1a88a9e3f8b31b5",
+          "hash": "caa4db679ca2dd5d7acad37b75ec265fb53f3c27126b72a74dba1b4572343ba5"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "caa4db679ca2dd5d7acad37b75ec265fb53f3c27126b72a74dba1b4572343ba5",
+          "hash": "7b2cba24d060ec0f397911c1f34e3dbf05a86dd562838f0270f0cc81e823a2fc"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "7b2cba24d060ec0f397911c1f34e3dbf05a86dd562838f0270f0cc81e823a2fc",
+          "hash": "e2f3246f0e87f1439c3babe93368b5e26607f9f9f1b7cd4358c01d9076b484c3"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0025",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-12 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-14 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-15 09:00",
+          "place": "泉州·古城文创店",
+          "operator": "古艺漫行记",
+          "detail": "购买人 古艺漫行记，联系电话 18436172954"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "18b9c73549adefb7774e710ef433d7a68b3ff127674d24d8fd8e94459eeb283a"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "18b9c73549adefb7774e710ef433d7a68b3ff127674d24d8fd8e94459eeb283a",
+          "hash": "bc03211f09d05c9d4f62e80c0fa5a65228860c4148408456bf2a8019855ad91f"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "bc03211f09d05c9d4f62e80c0fa5a65228860c4148408456bf2a8019855ad91f",
+          "hash": "b1056ea6f7e946007bf5880ea209ccb621a1867838a40e6deed858090704de28"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "b1056ea6f7e946007bf5880ea209ccb621a1867838a40e6deed858090704de28",
+          "hash": "d4d060d2ae83f3e70f802937d2b5b16d49128808898b1d38935d7b9927cafb16"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0026",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-13 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-15 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-05 15:40",
+          "place": "泉州·古城文创店",
+          "operator": "纹章观旅",
+          "detail": "购买人 纹章观旅，联系电话 18529473615"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "d7b47ee8e4b13a9f1b90fd67fb88579dde50ee966b6cf57b4d0020ebb297388a"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "d7b47ee8e4b13a9f1b90fd67fb88579dde50ee966b6cf57b4d0020ebb297388a",
+          "hash": "2f7b55aafe4c7288f35df77e88027c99238cb23703fd8dd0c276f26751b1c7df"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "2f7b55aafe4c7288f35df77e88027c99238cb23703fd8dd0c276f26751b1c7df",
+          "hash": "77cba5c931816649fc8c588c544ec9179c55f3495baff5688b1104114f9da93c"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "77cba5c931816649fc8c588c544ec9179c55f3495baff5688b1104114f9da93c",
+          "hash": "4c6834274a253755f9f56d6ad105ef15b3948334c5933340d30c7174bb487694"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0027",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-14 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-16 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-07 13:00",
+          "place": "泉州·古城文创店",
+          "operator": "雅物伴远行",
+          "detail": "购买人 雅物伴远行，联系电话 18647295318"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "b642b735ce2a2401b476e627e0217308f8fa3ca0190498173a6c0ed02676cfd0"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "b642b735ce2a2401b476e627e0217308f8fa3ca0190498173a6c0ed02676cfd0",
+          "hash": "851e3d2cd0285f37216de74e1e941a8fbe3a8370975bafc70461ff74e0aeaadb"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "851e3d2cd0285f37216de74e1e941a8fbe3a8370975bafc70461ff74e0aeaadb",
+          "hash": "728932adeeb1566be365d54a58797936376af0ab809694b048f7c8b92613482d"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "728932adeeb1566be365d54a58797936376af0ab809694b048f7c8b92613482d",
+          "hash": "783ac13885748daec46256d27149d5967063e3ff2d96ab5402ff29df881d6585"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0028",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-15 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-17 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-01 15:00",
+          "place": "泉州·古城文创店",
+          "operator": "旧韵寻踪人",
+          "detail": "购买人 旧韵寻踪人，联系电话 18735926418"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "757453df70e903e9d9bf95b8fb8a3b6fc3823b53b62a92af479f941350f6786e"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "757453df70e903e9d9bf95b8fb8a3b6fc3823b53b62a92af479f941350f6786e",
+          "hash": "89192ed619ccced4c8e3397a1877d0f6b23772cd6704c085058d8cba63a531fa"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "89192ed619ccced4c8e3397a1877d0f6b23772cd6704c085058d8cba63a531fa",
+          "hash": "23edb5bc102eb146fc9d99b993b56db1f8ebbfebd91b5d97644dc5d5e2272471"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "23edb5bc102eb146fc9d99b993b56db1f8ebbfebd91b5d97644dc5d5e2272471",
+          "hash": "689cbc11093fe01122eacc0a9fb7d795a329aadc16559d955285349f625728a7"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0029",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-16 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-18 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-11 03:50",
+          "place": "泉州·古城文创店",
+          "operator": "艺集漫游客",
+          "detail": "购买人 艺集漫游客，联系电话 18826497351"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "a0f1179abb2b7ec2adc4bd8c32d5f4b77191eb7ade6293dfafbb41d136908cf1"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "a0f1179abb2b7ec2adc4bd8c32d5f4b77191eb7ade6293dfafbb41d136908cf1",
+          "hash": "bf6c365d6b783e7c7b20ca32014b4ad4d3bfbe27777be57fa12983212861fde0"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "bf6c365d6b783e7c7b20ca32014b4ad4d3bfbe27777be57fa12983212861fde0",
+          "hash": "fb93d625a27372d2538a3dee9079390da94136931c754e8046d779c2099e94b7"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "fb93d625a27372d2538a3dee9079390da94136931c754e8046d779c2099e94b7",
+          "hash": "bd504a5ed036461f685572d65bad8e60cfd609557701cb12c6dd11098294ec4d"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0030",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-17 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-19 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-04 09:00",
+          "place": "泉州·古城文创店",
+          "operator": "轻游赏古纹",
+          "detail": "购买人 轻游赏古纹，联系电话 18947152638"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "1a6a609c74e7af1f7e548f3068377d9cb1d3eb8ac4f1e7e7e7097dddaf8d0245"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "1a6a609c74e7af1f7e548f3068377d9cb1d3eb8ac4f1e7e7e7097dddaf8d0245",
+          "hash": "298e50ddaf7a2eb53366d914d7d8f6d5633e8d6fe2fa87450155c17834625422"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "298e50ddaf7a2eb53366d914d7d8f6d5633e8d6fe2fa87450155c17834625422",
+          "hash": "8a5fb22850ac9dfbeeafe47879fd1f2128049734f95fb6a5ec44b03513fa34f3"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "8a5fb22850ac9dfbeeafe47879fd1f2128049734f95fb6a5ec44b03513fa34f3",
+          "hash": "42b8111693bcb80cead9d718c1d51309dfd13e12d02056c9dc9c37cc4fdb70e4"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0031",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-18 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-20 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-11 05:10",
+          "place": "泉州·古城文创店",
+          "operator": "缕影藏风物",
+          "detail": "购买人 缕影藏风物，联系电话 13572946185"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "94b08a5dbf08a1b117dd848afca2d92adeaf31b9116cb594f9808b6ab70ad596"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "94b08a5dbf08a1b117dd848afca2d92adeaf31b9116cb594f9808b6ab70ad596",
+          "hash": "f409c00c5d3d02566dce7fd9fe07fec8a66968999c2571b4aba28c7e73f8e66b"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "f409c00c5d3d02566dce7fd9fe07fec8a66968999c2571b4aba28c7e73f8e66b",
+          "hash": "3fe59d18efe7c56597b6467d3b8e257586cc42678b7e3d9004e0ff7c6857302e"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "3fe59d18efe7c56597b6467d3b8e257586cc42678b7e3d9004e0ff7c6857302e",
+          "hash": "210a7cdaea1a78259cd65b37ec942e4b2bb58a69d186e6b8f5e970fe13d6ca61"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0032",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-19 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-21 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-10 09:00",
+          "place": "泉州·古城文创店",
+          "operator": "访艺走山河",
+          "detail": "购买人 访艺走山河，联系电话 13628594713"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "1c7f721b07256d5c1c58033ea3fa58fd616507f7e19fdf10f2ba6d4776e4b807"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "1c7f721b07256d5c1c58033ea3fa58fd616507f7e19fdf10f2ba6d4776e4b807",
+          "hash": "a188193686568f83e5103ac157764c57af6b1d7700eb6882469aa601d46f6899"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "a188193686568f83e5103ac157764c57af6b1d7700eb6882469aa601d46f6899",
+          "hash": "3a0fd62a81d43d7ad682af17f7a351ec8568691e1697bec088207ffe4d463975"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "3a0fd62a81d43d7ad682af17f7a351ec8568691e1697bec088207ffe4d463975",
+          "hash": "30f4a27584f9608f39c05edaffd7167f03d1dd9e56a64d82c981e023f1aa3822"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0033",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-20 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-22 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-07 15:40",
+          "place": "泉州·古城文创店",
+          "operator": "文创拾雅趣",
+          "detail": "购买人 文创拾雅趣，联系电话 13794625813"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "ecdb6a2dc4023f3a66041e164dfa866abe8afad962e1704c79a7c087f482eb91"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "ecdb6a2dc4023f3a66041e164dfa866abe8afad962e1704c79a7c087f482eb91",
+          "hash": "eb62584626a2ba545c9c80899614f7f72929ccac50db969e2a4a4c3bc05a4b71"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "eb62584626a2ba545c9c80899614f7f72929ccac50db969e2a4a4c3bc05a4b71",
+          "hash": "f6ae0e2a67688b62a232a59394e98cb08e342c24ba0bedda051ab3a5effc9c62"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "f6ae0e2a67688b62a232a59394e98cb08e342c24ba0bedda051ab3a5effc9c62",
+          "hash": "7d4779e367ec0fdc4ce57c7126e00215f5b74e13a2981774d19c5b34c812b83c"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0034",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-21 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-23 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-07 13:40",
+          "place": "泉州·古城文创店",
+          "operator": "古艺行路人",
+          "detail": "购买人 古艺行路人，联系电话 13847159263"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "e179adee955bba188ab88e1a0829b851f6658e3695de4882f0c9ec20d976381b"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "e179adee955bba188ab88e1a0829b851f6658e3695de4882f0c9ec20d976381b",
+          "hash": "2591e663dcbc487392f7f9a07616f883d8d0262808de04bc8f82e6d0911053c3"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "2591e663dcbc487392f7f9a07616f883d8d0262808de04bc8f82e6d0911053c3",
+          "hash": "58b8e34a9728b1b084f1e265635df9b615fd7125c05c8eee07f275242f5d59ee"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "58b8e34a9728b1b084f1e265635df9b615fd7125c05c8eee07f275242f5d59ee",
+          "hash": "4a179b55a670f24782e4af1dce69a064a2b9d7ace02e8a36db325318a22a7fbf"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0035",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-22 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-24 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-10-30 11:40",
+          "place": "泉州·古城文创店",
+          "operator": "风物观雅集",
+          "detail": "购买人 风物观雅集，联系电话 13952847163"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "808b8bdfe32a652540c7d39001e57bd19f0f94202cd69f9e7838040b5ada8f61"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "808b8bdfe32a652540c7d39001e57bd19f0f94202cd69f9e7838040b5ada8f61",
+          "hash": "40df97f30f709a10910c5c69cc62c9f1246e66fbd2967aae98cb533cb1bbcd59"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "40df97f30f709a10910c5c69cc62c9f1246e66fbd2967aae98cb533cb1bbcd59",
+          "hash": "e463eab816ed1dbc04d5beeda1771e8b9107e5521c6eb9080158a712596d1c99"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "e463eab816ed1dbc04d5beeda1771e8b9107e5521c6eb9080158a712596d1c99",
+          "hash": "44a93623116dbe5e5c1f16dea147a713eef776b567c217aa5716b14080345637"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0036",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-23 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-25 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-10-30 12:20",
+          "place": "泉州·古城文创店",
+          "operator": "纹彩漫游札记",
+          "detail": "购买人 纹彩漫游札记，联系电话 15074293618"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "35e4ef8009e47c36b85abead9279fc0f05e1c88cd6c20e61bc8354a0fe79c2d5"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "35e4ef8009e47c36b85abead9279fc0f05e1c88cd6c20e61bc8354a0fe79c2d5",
+          "hash": "e53cbb2cf315b3315723d70801a1cdd9ac542ec7859b13278ce1df700612b21b"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "e53cbb2cf315b3315723d70801a1cdd9ac542ec7859b13278ce1df700612b21b",
+          "hash": "b87bf9fedbb19ba972fb89a94d3b24d69ae654c6b1b7871edec1b478c8952269"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "b87bf9fedbb19ba972fb89a94d3b24d69ae654c6b1b7871edec1b478c8952269",
+          "hash": "a43469d104c6512c60b62c7c86ffd0eb718072e721d3b317281ec15e4dd404e5"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0037",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-24 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-26 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-07 12:20",
+          "place": "泉州·古城文创店",
+          "operator": "远旅觅旧艺",
+          "detail": "购买人 远旅觅旧艺，联系电话 15128639475"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "136ba4d50a6d96b45ba709b310a5a183e93b3bdb4dddfac0a964ca14ebf32839"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "136ba4d50a6d96b45ba709b310a5a183e93b3bdb4dddfac0a964ca14ebf32839",
+          "hash": "c717be67cc7c9b15c6312cefa0c318ee708f44514aef5e74f978fc177eff2072"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "c717be67cc7c9b15c6312cefa0c318ee708f44514aef5e74f978fc177eff2072",
+          "hash": "c6adf35dc1851f8f13c773101fceedf7d404b5fd671e5d1f2a947007d7b9b9af"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "c6adf35dc1851f8f13c773101fceedf7d404b5fd671e5d1f2a947007d7b9b9af",
+          "hash": "0d85464181f19456842e4280c0f9dbd67c011c3a2ddb8bdf6148c1e5c8a76064"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0038",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-25 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-27 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-14 09:00",
+          "place": "泉州·古城文创店",
+          "operator": "素艺藏山河",
+          "detail": "购买人 素艺藏山河，联系电话 15249173685"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "664385300ec1b533956dc6523ef9f84fa40f75ffba36923e70b6e0c9d25c451a"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "664385300ec1b533956dc6523ef9f84fa40f75ffba36923e70b6e0c9d25c451a",
+          "hash": "bc7403c6f9a8734a8fcdd71911ef490c4e1fe8ee4c8038040712f46040b99759"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "bc7403c6f9a8734a8fcdd71911ef490c4e1fe8ee4c8038040712f46040b99759",
+          "hash": "60033e27038bdc811a33f727b3ec925ca284592fc7e50d1d026e869b47e9fee0"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "60033e27038bdc811a33f727b3ec925ca284592fc7e50d1d026e869b47e9fee0",
+          "hash": "3cf28e651f6307e948004b969c142b26c59b193ac66b854fccafe4b7918bd7e4"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0039",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-26 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-08 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-09 11:00",
+          "place": "泉州·古城文创店",
+          "operator": "巷陌访纹人",
+          "detail": "购买人 巷陌访纹人，联系电话 15362947185"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "290cac3abb830fed8c8a2a377ef5ab05163388840aa2b38e3f8a03e507f7f1a3"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "290cac3abb830fed8c8a2a377ef5ab05163388840aa2b38e3f8a03e507f7f1a3",
+          "hash": "284194e87971715fcd0ccc0ec4ab239e391afbe82bee040c65ac941316fe7a1d"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "284194e87971715fcd0ccc0ec4ab239e391afbe82bee040c65ac941316fe7a1d",
+          "hash": "3388c41adc5fdf70014dd1d610da521f05973305de7768f809a4f72bf093f112"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "3388c41adc5fdf70014dd1d610da521f05973305de7768f809a4f72bf093f112",
+          "hash": "76874a182935f9d32b1b8236e91cdbcda17c18fd49dfa2db70dc2aef36429bdf"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0040",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-27 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-09 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-11 00:30",
+          "place": "泉州·古城文创店",
+          "operator": "雅缕观风物",
+          "detail": "购买人 雅缕观风物，联系电话 15573284619"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "c1756f4e3a41ee3d977e365ac05948958ccbc0d1699927d851e1dec6ee4d87fa"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "c1756f4e3a41ee3d977e365ac05948958ccbc0d1699927d851e1dec6ee4d87fa",
+          "hash": "256460c278bf2f8293351b5dbf6046a7edfd6ce385ba2fcddca0eacf6d937328"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "256460c278bf2f8293351b5dbf6046a7edfd6ce385ba2fcddca0eacf6d937328",
+          "hash": "2254ba53f7cee6757a3bbfd8c2616fdbe422571c03fe28daad5a627656846095"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "2254ba53f7cee6757a3bbfd8c2616fdbe422571c03fe28daad5a627656846095",
+          "hash": "123206e6e9cb82be717a4445b0b8df36ca12c3c501fe4f4854ba9afb2e21067d"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0041",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-08 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-10 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-11 07:10",
+          "place": "泉州·古城文创店",
+          "operator": "艺途寻旧韵",
+          "detail": "购买人 艺途寻旧韵，联系电话 15692473815"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "a96b723d4ad83e53112bfb19f79adc5e8af2d4bb99e895f5ca961a31225121dd"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "a96b723d4ad83e53112bfb19f79adc5e8af2d4bb99e895f5ca961a31225121dd",
+          "hash": "5b6e63cb11c27b7b66e302eb521ef0248e6334c1d1260ed41ba6134a89670240"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "5b6e63cb11c27b7b66e302eb521ef0248e6334c1d1260ed41ba6134a89670240",
+          "hash": "d1c6bcf308b9ac88c672a71cebecb450377dece361057583da74a63a643d62b5"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "d1c6bcf308b9ac88c672a71cebecb450377dece361057583da74a63a643d62b5",
+          "hash": "0e0f896d12f98ce1621a29bf74e805f2924fe8898cfac26bbbd838ceee373a68"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0042",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-09 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-11 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-10 13:40",
+          "place": "泉州·古城文创店",
+          "operator": "古物漫游手记",
+          "detail": "购买人 古物漫游手记，联系电话 15726394815"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "7d50e7512f49faa5411cc04c38e0b117f8e9175a3c156e0e0c50067697b0cefb"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "7d50e7512f49faa5411cc04c38e0b117f8e9175a3c156e0e0c50067697b0cefb",
+          "hash": "fdb8322315210afc20b3ee5f41f9d554d99ddd28efe5db870e023dae9ee78dd2"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "fdb8322315210afc20b3ee5f41f9d554d99ddd28efe5db870e023dae9ee78dd2",
+          "hash": "31d69f5931724cefd8fd09df7e3a1d95444e0e623362cfb8ae99908fe6b971f7"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "31d69f5931724cefd8fd09df7e3a1d95444e0e623362cfb8ae99908fe6b971f7",
+          "hash": "7834e83ad5440796cc152326a5ab81025817e62b14ebebe80f0398b22db6d161"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0043",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-10 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-12 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-11 03:10",
+          "place": "泉州·古城文创店",
+          "operator": "行游赏雅艺",
+          "detail": "购买人 行游赏雅艺，联系电话 15847129365"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "d101af3a54b657025dd1798a8777aab28b0b36e5cea62e109aa36559f8b71a23"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "d101af3a54b657025dd1798a8777aab28b0b36e5cea62e109aa36559f8b71a23",
+          "hash": "9a890fd38190a7a1c07c308c664aff42e205bd8b41201eb9a42a3042666f6425"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "9a890fd38190a7a1c07c308c664aff42e205bd8b41201eb9a42a3042666f6425",
+          "hash": "f57f3c0ab971ae6d147085b151a0f813007d1f8353b7f25ef879b03e4bad81f5"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "f57f3c0ab971ae6d147085b151a0f813007d1f8353b7f25ef879b03e4bad81f5",
+          "hash": "1c29af3cfe36582eb991cd8da5dd49fadab7d0d24cc1c2f54921dff908f8960d"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0044",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-11 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-13 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-04 11:40",
+          "place": "泉州·古城文创店",
+          "operator": "纹韵访古集",
+          "detail": "购买人 纹韵访古集，联系电话 15963827415"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "856af527f954d0f22ac9dd1cfc7c71cd335e6de4b1cebae649bf4d563b720f12"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "856af527f954d0f22ac9dd1cfc7c71cd335e6de4b1cebae649bf4d563b720f12",
+          "hash": "464bc209a28edd1341d29d6cbb2ad9928a1b051ee104ed270fe99edb50ced2f9"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "464bc209a28edd1341d29d6cbb2ad9928a1b051ee104ed270fe99edb50ced2f9",
+          "hash": "a7cd4a098383aea67526a004d5f769eaeed5e1fdbfd5ade6e9783fda87388f3b"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "a7cd4a098383aea67526a004d5f769eaeed5e1fdbfd5ade6e9783fda87388f3b",
+          "hash": "a7405a37ace608885e05308e4c8ad2f49e3bded7fd7ef3463cd6e312c6ea7f02"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0045",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-12 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-14 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-11 01:50",
+          "place": "泉州·古城文创店",
+          "operator": "轻旅藏缕色",
+          "detail": "购买人 轻旅藏缕色，联系电话 17359248167"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "63b0bad3df657c3584c88633d2e8a0d0896afdfec5316f3937a3311d5756af20"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "63b0bad3df657c3584c88633d2e8a0d0896afdfec5316f3937a3311d5756af20",
+          "hash": "bd10f4269456a1d0b2888c542bbac0dc498bf13201285c3a3e65acc9b1cb7c7a"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "bd10f4269456a1d0b2888c542bbac0dc498bf13201285c3a3e65acc9b1cb7c7a",
+          "hash": "1aa1e2927d8619973c312602dc429375e191601aa991b77e2b45d02064478ed3"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "1aa1e2927d8619973c312602dc429375e191601aa991b77e2b45d02064478ed3",
+          "hash": "bd7466334f8a517808b3aca0f6a8c17936b7042a1f57e51eb9db2ad1c00df339"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0046",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-13 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-15 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-08 13:00",
+          "place": "泉州·古城文创店",
+          "operator": "风物寻雅客",
+          "detail": "购买人 风物寻雅客，联系电话 17582493617"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "20271776d5fba83ec1708eb0c1e9deef1268f2d33ef2d3e6d28189c9ce322293"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "20271776d5fba83ec1708eb0c1e9deef1268f2d33ef2d3e6d28189c9ce322293",
+          "hash": "82ccefb85df87962bebf8f0f7b08fb6d7845804f836905f9bba65c7186f07bfe"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "82ccefb85df87962bebf8f0f7b08fb6d7845804f836905f9bba65c7186f07bfe",
+          "hash": "ea090353e833fce0e93357457c8bd8efbc83183c7ab857584a9ab749134960e7"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "ea090353e833fce0e93357457c8bd8efbc83183c7ab857584a9ab749134960e7",
+          "hash": "58c90043da6aa69683211f39ccfcde683db4536e19fcd66f0e31d387fdba0e54"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0047",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-14 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-16 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-11 07:50",
+          "place": "泉州·古城文创店",
+          "operator": "古艺观途记",
+          "detail": "购买人 古艺观途记，联系电话 17693148257"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "868fad07fd1440670e51357de195ed7c00528952370f3890edd0ad751adb8d19"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "868fad07fd1440670e51357de195ed7c00528952370f3890edd0ad751adb8d19",
+          "hash": "63cd79fb8282d9abed055f472a2edaf62fd760dabcd6d451f90df578055fc4b9"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "63cd79fb8282d9abed055f472a2edaf62fd760dabcd6d451f90df578055fc4b9",
+          "hash": "5c20edaa2c155486b7bcd4f575c3674abde5f2fdb9e92ad741e95029252c904a"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "5c20edaa2c155486b7bcd4f575c3674abde5f2fdb9e92ad741e95029252c904a",
+          "hash": "845616fe1a2ae6e38ae95228cbd8231ec8915c47bd50b31effb8c0bd943f9892"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0048",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-15 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-17 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-05 09:40",
+          "place": "泉州·古城文创店",
+          "operator": "手作访纹行",
+          "detail": "购买人 手作访纹行，联系电话 17724869135"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "5e1a67802684e6252ceecbc94ab4809148db00fff4dc1560359f594b200c9f29"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "5e1a67802684e6252ceecbc94ab4809148db00fff4dc1560359f594b200c9f29",
+          "hash": "4fa550f08fae05bee519896b06b9ab6f6087e0acd83a4723bd90d09c084c9aa0"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "4fa550f08fae05bee519896b06b9ab6f6087e0acd83a4723bd90d09c084c9aa0",
+          "hash": "e56dd92469ec846512ed36b571bfaae8d864941634e3e7d39e3976fa816944de"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "e56dd92469ec846512ed36b571bfaae8d864941634e3e7d39e3976fa816944de",
+          "hash": "c128b25dc8c5a6ea49c0eb3c2157234df1f18533cbb59c74e00c9de3bbe8e7cd"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0049",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-16 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-18 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-10 13:00",
+          "place": "泉州·古城文创店",
+          "operator": "山河藏雅物",
+          "detail": "购买人 山河藏雅物，联系电话 17863925417"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "23a69ff0dd443aedb13321ec893db2007e44687cc9921b88e079a75fc56d7fec"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "23a69ff0dd443aedb13321ec893db2007e44687cc9921b88e079a75fc56d7fec",
+          "hash": "98d9a442cb6bf2bf804a28e3eda9760d24609aa98e5032e08cc165d7beafef6f"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "98d9a442cb6bf2bf804a28e3eda9760d24609aa98e5032e08cc165d7beafef6f",
+          "hash": "0cd07374a15e09b0af9bd5984213990d270d88fe04b4de410b99760662465a19"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "0cd07374a15e09b0af9bd5984213990d270d88fe04b4de410b99760662465a19",
+          "hash": "ca88a8725633941e43461a95600844c35f3086558ed71f85c0d4844ae0528f3b"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0050",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-17 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-19 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-05 16:20",
+          "place": "泉州·古城文创店",
+          "operator": "旧艺拾雅集",
+          "detail": "购买人 旧艺拾雅集，联系电话 17982463517"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "7e3fae624990f5b2ae95ac4690c10ced67ee4c5fa194612fdbcc7644a8cb7b25"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "7e3fae624990f5b2ae95ac4690c10ced67ee4c5fa194612fdbcc7644a8cb7b25",
+          "hash": "9d68945e59a5a593d944bc83446bcdd6aa701bd3986b581a19722a01a2406b92"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "9d68945e59a5a593d944bc83446bcdd6aa701bd3986b581a19722a01a2406b92",
+          "hash": "be238102f074be0258cd66996dc61f0db7e21de180a3d1460fa4ec35788bdeb7"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "be238102f074be0258cd66996dc61f0db7e21de180a3d1460fa4ec35788bdeb7",
+          "hash": "8ba952781df8312c647a8670703b94db7640a31b041aa503829627abcb4e0b35"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0051",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-18 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-20 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-08 13:40",
+          "place": "泉州·古城文创店",
+          "operator": "旅观古纹录",
+          "detail": "购买人 旅观古纹录，联系电话 18059137246"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "7368ee3ef597e9d529122a7c2facbff600c182d22dc45c5f68502afd840a6a93"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "7368ee3ef597e9d529122a7c2facbff600c182d22dc45c5f68502afd840a6a93",
+          "hash": "d25eddb3279bff5602dad704bc200953a8bf0c8ecb871913eea35e1ac637b6ca"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "d25eddb3279bff5602dad704bc200953a8bf0c8ecb871913eea35e1ac637b6ca",
+          "hash": "e3edd8a904782d6ba523669402aafeef58708d8c0929f0d646c188c69832de29"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "e3edd8a904782d6ba523669402aafeef58708d8c0929f0d646c188c69832de29",
+          "hash": "bf7c78683e9321099e95b37c134bd1dbb94156237a2dcb4be17c84e2284c4600"
+        }
+      ]
+    },
+    {
+      "code": "ZXS-20261116-0052",
+      "name": "珠绣包包",
+      "price": 128,
+      "brand": "拾珠绣",
+      "brandEn": "PEARL VISION",
+      "slogan": "以珠为缀，绣活非遗",
+      "ip": "拾鸢",
+      "origin": "中国·泉州",
+      "brandIntro": "泉州刺桐港，海风载着千年珠绣技艺。拾珠绣 PEARL VISION 诞生于此，打造治愈系 IP「拾鸢」，将厚重的珠绣非遗转化为潮玩、随身配饰与文创小物，让古老珠绣在年轻人手中重新绽放光彩。",
+      "stages": [
+        {
+          "id": "s1",
+          "name": "珠绣制作",
+          "time": "2026-11-19 10:00",
+          "place": "泉州·刺桐珠绣工坊",
+          "operator": "绣娘 陈XX",
+          "detail": "选用莹润珠粒，纯手工缝制珠绣包身，历时三日完成"
+        },
+        {
+          "id": "s2",
+          "name": "质量检验",
+          "time": "2026-11-21 15:30",
+          "place": "拾珠绣品控中心",
+          "operator": "质检员 林XX",
+          "detail": "针脚牢固、珠粒均匀、包型周正，检验合格"
+        },
+        {
+          "id": "s3",
+          "name": "到店 / 购买人",
+          "time": "2026-11-01 13:00",
+          "place": "泉州·古城文创店",
+          "operator": "雅艺寻风人",
+          "detail": "购买人 雅艺寻风人，联系电话 18174295368"
+        }
+      ],
+      "chain": [
+        {
+          "index": 0,
+          "name": "商品上链",
+          "prevHash": "0000000000000000000000000000000000000000000000000000000000000000",
+          "hash": "58c1bf363cee7b0bd63cddb8ec4b327fbfea45800563b898cdf77289cca1c8f2"
+        },
+        {
+          "index": 1,
+          "name": "珠绣制作",
+          "prevHash": "58c1bf363cee7b0bd63cddb8ec4b327fbfea45800563b898cdf77289cca1c8f2",
+          "hash": "1c160da9cbeeeed63550512e36c62d9f18f78182eed968f47cf52793a8190b77"
+        },
+        {
+          "index": 2,
+          "name": "质量检验",
+          "prevHash": "1c160da9cbeeeed63550512e36c62d9f18f78182eed968f47cf52793a8190b77",
+          "hash": "55e253dd1eb6cdf2c0a02fae15fdc93434f839f451cb805624cdb9725018d1cc"
+        },
+        {
+          "index": 3,
+          "name": "到店 / 购买人",
+          "prevHash": "55e253dd1eb6cdf2c0a02fae15fdc93434f839f451cb805624cdb9725018d1cc",
+          "hash": "b1a2825b94e540f86a2d09f3eca0c5e37808964369143177ff52e13a5c2632b1"
+        }
+      ]
+    }
+  ]
+}

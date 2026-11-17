@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>拾珠绣 · 区块链溯源查询</title>
+<style>
+  :root {
+    --bg: #f6f2e9; --card: #fff; --ink: #332817; --muted: #8c7a5d;
+    --gold: #b08d3e; --gold-soft: #e8d9b8; --red: #9e2b25; --green: #2e7d32; --line: #e6dcc8;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { background: var(--bg); color: var(--ink); font-family: "PingFang SC","Microsoft YaHei",sans-serif; min-height: 100vh; display: flex; flex-direction: column; }
+  .hero {
+    background: linear-gradient(160deg,#b08d3e 0%,#d4b15f 55%,#efe2c0 100%);
+    color: #fff; padding: 40px 24px 56px; text-align: center; position: relative; overflow: hidden;
+  }
+  .hero::after { content: ""; position: absolute; inset: 0; background: radial-gradient(circle at 80% 10%, rgba(255,255,255,.25), transparent 40%); pointer-events: none; }
+  .hero .brand { font-size: 28px; font-weight: 700; letter-spacing: 5px; font-family: "STKaiti","KaiTi","Noto Serif SC",serif; position: relative; }
+  .hero .brand-en { font-size: 12px; letter-spacing: 3px; opacity: .9; margin-top: 4px; position: relative; }
+  .hero .slogan { font-size: 14px; margin-top: 12px; letter-spacing: 2px; opacity: .96; font-family: "STKaiti","KaiTi",serif; position: relative; }
+  .card {
+    background: var(--card); margin: -30px 20px 0; position: relative; z-index: 2;
+    border-radius: 18px; box-shadow: 0 10px 30px rgba(120,90,40,.15); padding: 28px 22px;
+  }
+  .card .title { font-size: 18px; font-weight: 700; font-family: "STKaiti","KaiTi",serif; text-align: center; letter-spacing: 2px; }
+  .card .subtitle { font-size: 12px; color: var(--muted); text-align: center; margin-top: 6px; line-height: 1.7; }
+  .input-wrap { margin-top: 24px; }
+  .input-wrap label { font-size: 12px; color: var(--muted); letter-spacing: 1px; display: block; margin-bottom: 8px; }
+  .input-wrap input {
+    width: 100%; padding: 14px 16px; font-size: 17px; border: 2px solid var(--gold-soft);
+    border-radius: 12px; outline: none; font-family: "SFMono-Regular", Consolas, monospace;
+    letter-spacing: 1px; color: var(--ink); background: #fdfaf3; transition: border-color .2s;
+  }
+  .input-wrap input:focus { border-color: var(--gold); }
+  .btn {
+    display: block; width: 100%; margin-top: 18px; padding: 15px; border: none; cursor: pointer;
+    border-radius: 12px; font-size: 16px; font-weight: 700; font-family: inherit; letter-spacing: 3px;
+    background: linear-gradient(135deg, #b08d3e, #c9a558); color: #fff; box-shadow: 0 6px 16px rgba(176,141,62,.3);
+    transition: transform .1s;
+  }
+  .btn:active { transform: scale(.98); }
+  .tip { margin-top: 16px; font-size: 12px; color: var(--red); text-align: center; min-height: 18px; }
+  .hint {
+    margin-top: 22px; padding: 14px 16px; background: #faf6ec; border: 1px dashed var(--gold);
+    border-radius: 10px; font-size: 12px; color: var(--muted); line-height: 1.8;
+  }
+  .hint b { color: var(--ink); }
+  .footer { margin-top: auto; padding: 24px; text-align: center; font-size: 11px; color: var(--muted); line-height: 1.8; }
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="brand">拾珠绣</div>
+  <div class="brand-en">PEARL VISION · 珍珠视界</div>
+  <div class="slogan">以珠为缀，绣活非遗</div>
+</div>
+
+<div class="card">
+  <div class="title">区块链溯源 · 真伪查询</div>
+  <div class="subtitle">输入商品包装上的防伪代码，即可查看该商品的全程溯源信息与链上存证</div>
+
+  <div class="input-wrap">
+    <label>防伪代码</label>
+    <input type="text" id="codeInput" placeholder="例如：ZXS-20261116-0001" autocomplete="off">
+  </div>
+  <button class="btn" id="queryBtn">查 询</button>
+  <div class="tip" id="tip"></div>
+
+  <div class="hint">
+    <b>温馨提示：</b>防伪代码印于商品包装 / 吊牌上，为 <b>ZXS-日期-流水号</b> 格式、全网唯一。<br>
+    查询结果由区块链存证校验，若提示「防伪码不存在」，请核对输入或谨防假冒。
+  </div>
+</div>
+
+<div class="footer">
+  <div>拾珠绣 PEARL VISION · 区块链溯源系统</div>
+  <div>数据上链 · 不可篡改 · 全程可追溯</div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  function $(id) { return document.getElementById(id); }
+  function esc(s) { return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+
+  var input = $('codeInput');
+  var btn = $('queryBtn');
+  var tip = $('tip');
+
+  function doQuery() {
+    var code = input.value.trim();
+    if (!code) {
+      tip.textContent = '请输入防伪代码';
+      input.focus();
+      return;
+    }
+    // 格式友好提示：防伪码应为 ZXS-日期-流水号（三段，用短横线 - 连接）
+    if (!/^ZXS-\d{8}-\d{4}$/.test(code.toUpperCase())) {
+      tip.textContent = '防伪代码格式可能不对，应为「ZXS-日期-流水号」，例如 ZXS-20261116-0001，请检查是否漏了短横线 -';
+      input.focus();
+      return;
+    }
+    tip.textContent = '';
+    // 跳转到溯源海报页，携带防伪码
+    location.href = 'index.html?code=' + encodeURIComponent(code);
+  }
+
+  btn.onclick = doQuery;
+  input.addEventListener('keydown', function (e) {
+    if (e.key === 'Enter') doQuery();
+  });
+  input.focus();
+})();
+</script>
+</body>
+</html>

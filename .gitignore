@@ -1,0 +1,21 @@
+# 备份文件
+assets/_backup/
+
+# 调试残留
+.build/
+*.log
+edge_err.txt
+
+# 旧的采购商表（已被购买人信息表取代）
+data/采购商信息表.xlsx
+
+# 临时中间文件
+tools/_buyers.json
+*.tmp
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# Node 依赖（本项目无依赖，仅保险）
+node_modules/

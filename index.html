@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>拾珠绣 · 珠绣包包 区块链溯源</title>
+<script src="lib/app.js"></script>
+<script src="lib/xlsx.full.min.js"></script>
+<style>
+  :root {
+    --bg: #f4eddf;
+    --card: #ffffff;
+    --ink: #332817;
+    --muted: #8c7a5d;
+    --gold: #b08d3e;
+    --gold-soft: #e8d9b8;
+    --red: #9e2b25;
+    --green: #2e7d32;
+    --line: #e6dcc8;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--ink);
+    font-family: "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+    -webkit-font-smoothing: antialiased;
+  }
+  .wrap { max-width: 460px; margin: 0 auto; padding-bottom: 40px; }
+
+  /* ===== 顶部头图 ===== */
+  .hero {
+    position: relative;
+    background: linear-gradient(160deg, #b08d3e 0%, #d4b15f 55%, #efe2c0 100%);
+    padding: 26px 22px 22px;
+    text-align: center;
+    color: #fff;
+    overflow: hidden;
+  }
+  .hero::after {
+    content: ""; position: absolute; inset: 0;
+    background: radial-gradient(circle at 80% 10%, rgba(255,255,255,.25), transparent 40%);
+    pointer-events: none;
+  }
+  .hero .ip {
+    position: absolute; right: 14px; top: 50%; transform: translateY(-50%);
+    width: 116px; height: 116px; border-radius: 50%;
+    object-fit: cover; border: 3px solid rgba(255,255,255,.7);
+    box-shadow: 0 6px 18px rgba(0,0,0,.18);
+  }
+  .hero .brand { font-size: 26px; font-weight: 700; letter-spacing: 4px; font-family: "STKaiti","KaiTi","Noto Serif SC",serif; }
+  .hero .brand-en { font-size: 11px; letter-spacing: 3px; opacity: .9; margin-top: 2px; }
+  .hero .slogan { font-size: 13px; margin-top: 10px; letter-spacing: 2px; opacity: .96; font-family: "STKaiti","KaiTi",serif; }
+  .hero .badge {
+    display: inline-block; margin-top: 12px; font-size: 11px; letter-spacing: 1px;
+    padding: 4px 12px; border: 1px solid rgba(255,255,255,.85); border-radius: 20px; background: rgba(255,255,255,.12);
+  }
+
+  /* ===== 商品卡 ===== */
+  .product {
+    background: var(--card); margin: -14px 16px 0; position: relative; z-index: 2;
+    border-radius: 16px; box-shadow: 0 8px 24px rgba(120,90,40,.12);
+    padding: 20px; text-align: center;
+  }
+  .product img { width: 100%; max-width: 320px; border-radius: 12px; }
+  .product .name { font-size: 20px; font-weight: 700; margin-top: 14px; font-family: "STKaiti","KaiTi",serif; }
+  .product .price { color: var(--red); font-size: 20px; font-weight: 700; margin-top: 4px; }
+  .product .price small { font-size: 12px; color: var(--muted); font-weight: 400; }
+
+  .code-box {
+    margin-top: 16px; padding: 12px 14px; background: #faf6ec; border: 1px dashed var(--gold);
+    border-radius: 10px;
+  }
+  .code-box .label { font-size: 11px; color: var(--muted); letter-spacing: 1px; }
+  .code-box .code {
+    font-family: "SFMono-Regular", Consolas, monospace; font-size: 18px; font-weight: 700;
+    color: var(--ink); letter-spacing: 1px; margin-top: 4px; word-break: break-all;
+  }
+  .code-box .tips { font-size: 11px; color: var(--muted); margin-top: 4px; }
+  .one-code {
+    display: inline-block; margin-top: 12px; font-size: 11px; color: var(--gold);
+    border: 1px solid var(--gold); border-radius: 20px; padding: 3px 12px;
+  }
+
+  /* ===== 区块标题 ===== */
+  .sec-title {
+    display: flex; align-items: center; gap: 8px; margin: 26px 20px 12px;
+    font-size: 16px; font-weight: 700; font-family: "STKaiti","KaiTi",serif;
+  }
+  .sec-title::before { content: ""; width: 4px; height: 18px; background: var(--gold); border-radius: 2px; }
+
+  /* ===== 溯源时间轴 ===== */
+  .timeline { background: var(--card); margin: 0 16px; border-radius: 16px; box-shadow: 0 6px 18px rgba(120,90,40,.08); padding: 18px 18px 8px; }
+  .tl-item { position: relative; padding: 0 0 20px 34px; }
+  .tl-item::before { content: ""; position: absolute; left: 11px; top: 22px; bottom: -2px; width: 2px; background: var(--gold-soft); }
+  .tl-item:last-child::before { display: none; }
+  .tl-item .dot {
+    position: absolute; left: 4px; top: 4px; width: 16px; height: 16px; border-radius: 50%;
+    background: #fff; border: 3px solid var(--gold);
+  }
+  .tl-item:last-child .dot { border-color: var(--red); }
+  .tl-item .stage-name { font-size: 15px; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+  .tl-item .stage-name .tag { font-size: 10px; color: #fff; background: var(--gold); border-radius: 4px; padding: 1px 6px; }
+  .tl-item .stage-name .tag.red { background: var(--red); }
+  .tl-item .meta { font-size: 12px; color: var(--muted); margin-top: 5px; line-height: 1.7; }
+  .tl-item .meta b { color: var(--ink); font-weight: 600; }
+  .tl-item .detail { font-size: 13px; color: var(--ink); margin-top: 6px; line-height: 1.6; background: #faf6ec; border-radius: 8px; padding: 8px 10px; }
+
+  /* 质检合格印章 */
+  .stamp {
+    position: absolute; right: 2px; top: 26px; width: 64px; height: 64px;
+    border: 2px solid var(--red); color: var(--red); border-radius: 8px;
+    display: flex; align-items: center; justify-content: center; text-align: center;
+    font-size: 13px; font-weight: 700; line-height: 1.3; letter-spacing: 1px;
+    transform: rotate(-12deg); opacity: .88; font-family: "STKaiti","KaiTi",serif;
+  }
+  .stamp.bad { border-color: #999; color: #999; }
+
+  /* ===== 区块链存证 ===== */
+  .chain-sec { background: var(--card); margin: 0 16px; border-radius: 16px; box-shadow: 0 6px 18px rgba(120,90,40,.08); padding: 18px; }
+  .chain-list { display: flex; gap: 6px; overflow-x: auto; padding: 4px 0 10px; }
+  .blk {
+    flex: 0 0 86px; border: 1px solid var(--gold-soft); border-radius: 10px; padding: 8px 6px;
+    text-align: center; background: #fdfaf3;
+  }
+  .blk .bi { font-size: 11px; font-weight: 700; color: var(--gold); }
+  .blk .bn { font-size: 10px; color: var(--muted); margin-top: 2px; height: 28px; overflow: hidden; }
+  .blk .bh { font-family: Consolas, monospace; font-size: 9px; color: var(--ink); margin-top: 4px; word-break: break-all; }
+  .blk.tampered { border-color: var(--red); background: #fdf1ef; }
+  .root-hash { margin-top: 6px; font-size: 11px; color: var(--muted); }
+  .root-hash .rh { font-family: Consolas, monospace; color: var(--ink); word-break: break-all; font-size: 11px; }
+
+  .verify-btn {
+    display: block; width: 100%; margin-top: 14px; padding: 13px; border: none; border-radius: 12px;
+    background: linear-gradient(135deg, #9e2b25, #c1443a); color: #fff; font-size: 15px; font-weight: 700;
+    letter-spacing: 2px; cursor: pointer; font-family: inherit;
+  }
+  .verify-btn:active { transform: scale(.98); }
+
+  .verify-result { margin-top: 12px; padding: 12px 14px; border-radius: 10px; font-size: 13px; text-align: center; display: none; }
+  .verify-result.ok { display: block; background: #eaf6ec; color: var(--green); border: 1px solid #bcdcb8; }
+  .verify-result.bad { display: block; background: #fdecea; color: var(--red); border: 1px solid #f0b6ae; }
+  .verify-result .big { font-size: 15px; font-weight: 700; }
+
+  /* ===== 品牌介绍 ===== */
+  .brand-intro { background: var(--card); margin: 0 16px; border-radius: 16px; box-shadow: 0 6px 18px rgba(120,90,40,.08); padding: 18px; }
+  .brand-intro p { font-size: 13px; line-height: 1.9; color: #4a3c29; font-family: "STKaiti","KaiTi",serif; }
+
+  .footer { text-align: center; margin-top: 24px; font-size: 11px; color: var(--muted); line-height: 1.8; }
+  .footer .f-brand { font-size: 13px; color: var(--ink); font-weight: 600; font-family: "STKaiti","KaiTi",serif; letter-spacing: 2px; }
+
+  .tamper-tip {
+    margin: 12px 16px 0; padding: 10px 14px; background: #fdecea; color: var(--red);
+    border: 1px solid #f0b6ae; border-radius: 10px; font-size: 12px; display: none;
+  }
+  .error-box { margin: 30px 16px; padding: 20px; background: #fdecea; color: var(--red); border-radius: 12px; font-size: 13px; line-height: 1.8; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="hero">
+    <img class="ip" src="assets/ip.png" alt="拾鸢">
+    <div class="brand">拾珠绣</div>
+    <div class="brand-en">PEARL VISION · 珍珠视界</div>
+    <div class="slogan">以珠为缀，绣活非遗</div>
+    <div class="badge">非遗珠绣 · 区块链溯源</div>
+  </div>
+
+  <div class="tamper-tip" id="tamperTip">⚠ 演示模式：溯源数据已被人为篡改，请点击下方「核验真伪」查看结果</div>
+
+  <div class="product">
+    <img src="assets/product.png" alt="珠绣包包">
+    <div class="name">珠绣包包</div>
+    <div class="price">¥128 <small>（手工珠绣文创）</small></div>
+    <div class="code-box">
+      <div class="label">专属防伪代码 · 一件一码</div>
+      <div class="code" id="code">ZXS-20261116-0001</div>
+      <div class="tips">此代码全网唯一，与链上存证一一绑定</div>
+    </div>
+    <span class="one-code">一物一码 · 可查可验</span>
+  </div>
+
+  <div class="sec-title">溯源全程</div>
+  <div class="timeline" id="timeline"></div>
+
+  <div class="sec-title">区块链存证</div>
+  <div class="chain-sec">
+    <div class="chain-list" id="chainList"></div>
+    <div class="root-hash">存证根哈希<br><span class="rh" id="rootHash"></span></div>
+    <button class="verify-btn" id="verifyBtn">核 验 真 伪</button>
+    <div class="verify-result" id="verifyResult"></div>
+  </div>
+
+  <div class="sec-title">品牌介绍</div>
+  <div class="brand-intro"><p id="brandIntro"></p></div>
+
+  <div class="footer">
+    <div class="f-brand">拾珠绣 PEARL VISION</div>
+    <div>本溯源页由「拾珠绣 · 区块链溯源系统」提供</div>
+    <div>数据上链 · 不可篡改 · 全程可追溯</div>
+  </div>
+</div>
+
+<script>
+(function () {
+  'use strict';
+  var params = new URLSearchParams(location.search);
+  var tamper = params.get('tamper') === '1';
+  var code = params.get('code'); // 按防伪码溯源
+
+  function $(id) { return document.getElementById(id); }
+  function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function loadJSON(url) {
+    return fetch(url).then(function (r) {
+      if (!r.ok) throw new Error('无法读取 ' + url);
+      return r.json();
+    });
+  }
+
+  // 读取购买人信息表（仅用于展示，不进入哈希输入）
+  function loadBuyer(code) {
+    return fetch('data/购买人信息表.xlsx').then(function (r) {
+      if (!r.ok) throw new Error('无法读取购买人信息表');
+      return r.arrayBuffer();
+    }).then(function (buf) {
+      var wb = XLSX.read(buf, { type: 'array', cellDates: true });
+      var ws = wb.Sheets[wb.SheetNames[0]];
+      var rows = XLSX.utils.sheet_to_json(ws, { header: 1, defval: '' });
+      for (var i = 1; i < rows.length; i++) {
+        var r = rows[i];
+        if (r && r[0] && String(r[0]).trim() === code) {
+          var time = r[3];
+          if (time instanceof Date && !isNaN(time)) {
+            var pad = function (n) { return String(n).padStart(2, '0'); };
+            time = time.getFullYear() + '-' + pad(time.getMonth() + 1) + '-' + pad(time.getDate()) + ' ' + pad(time.getHours()) + ':' + pad(time.getMinutes());
+          }
+          // 电话：数字类型（如 13524875912）转字符串，避免科学计数法/精度丢失
+          var phone = r[2];
+          if (typeof phone === 'number') {
+            phone = String(Math.round(phone));
+          } else {
+            phone = phone == null ? '' : String(phone).trim();
+          }
+          return { name: r[1], phone: phone, time: time };
+        }
+      }
+      return null;
+    });
+  }
+
+  function shortHash(h) { return h ? h.slice(0, 8) + '…' + h.slice(-6) : ''; }
+
+  function render(product, stages, chain, buyer) {
+    $('code').textContent = product.code;
+    $('brandIntro').textContent = product.brandIntro;
+
+    // 购买人信息仅用于展示（联动信息表），不进入哈希输入
+    // 隐私保护：称呼统一「顾客」、电话只显示后4位、时间模糊为「近期」
+    var disp = JSON.parse(JSON.stringify(stages));
+    if (buyer) {
+      var _s3 = disp.find(function (s) { return s.id === 's3'; });
+      if (_s3) {
+        _s3.operator = '顾客';
+        var phoneTail = '';
+        if (buyer.phone) {
+          var p = String(buyer.phone).replace(/\D/g, '');
+          phoneTail = p.length >= 4 ? p.slice(-4) : p;
+        }
+        _s3.detail = '感谢您的购买 尾号：' + (phoneTail ? phoneTail : '（未留电话）');
+        _s3.time = '近期';
+      }
+    }
+
+    // 时间轴
+    var tl = $('timeline');
+    tl.innerHTML = '';
+    disp.forEach(function (s, i) {
+      var isQC = s.name.indexOf('质检') >= 0;
+      var tag = isQC ? '<span class="tag red">质检</span>' : '<span class="tag">环节 ' + (i + 1) + '</span>';
+      var stamp = isQC
+        ? '<div class="stamp" id="stamp">质检<br>合格</div>'
+        : '';
+      var fromTable = '';
+      var item = document.createElement('div');
+      item.className = 'tl-item';
+      item.innerHTML =
+        '<div class="dot"></div>' +
+        '<div class="stage-name">' + esc(s.name) + ' ' + tag + '</div>' +
+        '<div class="meta">时间 <b>' + esc(s.time) + '</b> · 地点 <b>' + esc(s.place) + '</b></div>' +
+        '<div class="meta">操作方 <b>' + esc(s.operator) + '</b></div>' +
+        fromTable +
+        '<div class="detail">' + esc(s.detail) + '</div>' + stamp;
+      tl.appendChild(item);
+    });
+
+    // 若质检被篡改，印章变灰
+    if (tamper && $('stamp')) { $('stamp').className = 'stamp bad'; $('stamp').innerHTML = '质检<br>异常'; }
+
+    // 区块链
+    var cl = $('chainList');
+    cl.innerHTML = '';
+    var stored = chain || [];
+    var cur = Trace.computeChain(product, stages);
+    for (var k = 0; k < stored.length; k++) {
+      var b = stored[k];
+      var isDiff = cur[k] && cur[k].hash !== b.hash;
+      var d = document.createElement('div');
+      d.className = 'blk' + (isDiff ? ' tampered' : '');
+      d.innerHTML = '<div class="bi">区块 ' + b.index + '</div>' +
+        '<div class="bn">' + esc(b.name) + '</div>' +
+        '<div class="bh">' + shortHash(b.hash) + '</div>';
+      cl.appendChild(d);
+    }
+    var last = stored.length ? stored[stored.length - 1] : null;
+    $('rootHash').textContent = last ? last.hash : '—';
+
+    // 核验
+    var result = $('verifyResult');
+    $('verifyBtn').onclick = function () {
+      var v = Trace.verifyChain(product, stages, stored);
+      result.className = 'verify-result ' + (v.ok ? 'ok' : 'bad');
+      if (v.ok) {
+        result.innerHTML = '<span class="big">✓ 核验通过 · 正品</span><br>' + esc(v.reason);
+      } else {
+        result.innerHTML = '<span class="big">✗ 存证异常 · 谨防假冒</span><br>' + esc(v.reason);
+      }
+    };
+  }
+
+  function showError(e) {
+    var msg = e && e.message ? String(e.message) : '';
+    var html = '';
+    if (msg.indexOf('未找到防伪码') >= 0) {
+      // 防伪码不存在：可能是输错，也可能是假货
+      html =
+        '<div class="error-box" style="background:#faf6ec;color:#8c7a5d;border:1px dashed #b08d3e;text-align:center">' +
+        '<div style="font-size:16px;font-weight:700;color:#332817;margin-bottom:8px">未查询到该防伪代码</div>' +
+        '<div style="line-height:1.8">' +
+        '请核对输入的防伪代码是否正确、是否漏了短横线（-）。<br>' +
+        '正确的格式为：<b>ZXS-日期-流水号</b>，例如 <b>ZXS-20261116-0001</b>。<br><br>' +
+        '若确认输入无误仍无法查询，请留意商品真伪，或联系商家客服核实。' +
+        '</div></div>';
+    } else {
+      html = '<div class="error-box">无法加载溯源数据：' + esc(msg) +
+        '<br><br>请稍后重试，或联系商家获取帮助。</div>';
+    }
+    document.body.innerHTML = '<div class="wrap">' + html + '</div>';
+  }
+
+  loadJSON('data/溯源数据.json').then(function (data) {
+    var products = data.products || [];
+    // 按 ?code= 匹配商品，缺省取第一件
+    var product = code
+      ? products.find(function (p) { return p.code === code; })
+      : products[0];
+    if (!product) {
+      showError(new Error('未找到防伪码 ' + code + ' 对应的商品'));
+      return;
+    }
+    var stages = JSON.parse(JSON.stringify(product.stages)); // 哈希输入用
+    var chain = product.chain;
+
+    if (tamper) {
+      $('tamperTip').style.display = 'block';
+      var s2 = stages.find(function (s) { return s.id === 's2'; });
+      if (s2) s2.detail = '针脚松脱、部分珠粒掉落，检验不合格';
+    }
+
+    loadBuyer(product.code).then(function (buyer) {
+      render(product, stages, chain, buyer);
+    }).catch(function () {
+      render(product, stages, chain, null); // 信息表读取失败时回退
+    });
+  }).catch(showError);
+})();
+</script>
+</body>
+</html>
